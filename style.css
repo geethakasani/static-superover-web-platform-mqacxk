@@ -1,0 +1,76 @@
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: 10px;
+}
+.grid-heroes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content:right;
+  gap:15px;
+}
+
+.grid-villains {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content:left;
+  gap:15px;
+}
+.grid-scores {
+  text-align:center;
+}
+
+.player {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color:white;
+  box-shadow: 0px 0px 5px rgba(117, 34, 34, 0.1);
+  font-style:normal;
+  border:1px solid rgb(240, 227, 227);
+  border-radius:10px;;
+}
+
+.player img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.player h{
+  font-size: 15px;
+  margin: 0;
+}
+
+.player p {
+  margin: 0;
+  text-align: center;
+  font-style:bold;
+  font-size:40px;
+}
+.grid-scores p{
+  font-size: 50px;
+}
+
+/*@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-heroes, .grid-villains {
+    justify-content: center;
+  }
+
+  .player {
+    margin-bottom: 10px;
+  }
+}*/
+
+.footer {
+  margin: 25px 0px;
+  font-size: 18px;
+  text-align: center;
+}
